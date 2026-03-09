@@ -71,7 +71,7 @@ const galleryMarkap = images.map(image => `
             <img class="gallery-image"
                 src="${image.preview}"
                 data-source="${image.original}"
-                all="${image.description}"
+                alt="${image.description}"
             />
         </a>
     </li> 
